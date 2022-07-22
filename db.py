@@ -48,4 +48,3 @@ class DB:
 
 class DBCar(DB):
     model = Car
-

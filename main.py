@@ -13,4 +13,5 @@ def main():
         print("Invalid url.")
 
 
-main()
+if __name__ == "__main__":
+    main()

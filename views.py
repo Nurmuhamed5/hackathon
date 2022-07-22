@@ -107,13 +107,3 @@ def update(id: int):
     )
 
     db_car.update(updated_car)
-
-
-    
-
-
-   
-
-if __name__ == "__main__":
-    create()
-
