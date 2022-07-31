@@ -12,12 +12,12 @@
 # 3. Найдите все произведения, которые относятся к жанру ‘a’, регистр не должен иметь значения.
 
 # Ответ:
-# SELECT title, genretype FROM work WHERE genretype LIKE 'a';
+# SELECT title, genretype FROM work WHERE genretype LIKE 'p';
 
 # 4. Найдите среднее количество параграфов в произведения жанра ‘a’, регистр не должен иметь значения.
 
 # Ответ:
-# SELECT AVG(totalparagraphs) AS avg FROM work WHERE genretype LIKE 'a';
+# SELECT AVG(totalparagraphs) AS avg FROM work WHERE genretype LIKE 't';
 
 # 5. Выведите все произведения, в которых количество слов выше среднего.
 
